@@ -25,6 +25,16 @@ export const projects: IProject[] = [
     timePeriod: "February 2024 - now",
   },
   {
+    name: "Liberalismo.xyz",
+    status: "Active",
+    description: "Initiatives for freedom, capitalism, and State oversight.",
+    stack: ["next", "shadcn", "react", "typescript"],
+    timePeriod: "March 2024 - now",
+    mrr: 0,
+    urlText: "Go to website",
+    url: "https://liberalismo.xyz",
+  },
+  {
     name: "Juan Rallo Quotes",
     status: "Active",
     description: "Quotes from Juan Ramón Rallo.",
