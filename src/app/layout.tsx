@@ -88,6 +88,11 @@ export default function RootLayout({ children }: RootLayoutProps) {
             <Footer />
           </div>
         </ThemeProvider>
+        <script
+          data-goatcounter="https://asierbayon.goatcounter.com/count"
+          async
+          src="//gc.zgo.at/count.js"
+        ></script>
       </body>
     </html>
   )
