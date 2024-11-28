@@ -2,37 +2,27 @@ import { IProject } from "@/types"
 
 export const projects: IProject[] = [
   {
-    name: "Memecoins.wtf",
+    name: "Spots Guru",
     status: "Building",
-    description: "Memecoins Dashboard.",
-    stack: ["next", "react", "typescript", "shadcn", "prisma", "lucia"],
-    timePeriod: "March 2024 - now",
-  },
-  {
-    name: "Indie Ranking",
-    status: "Building",
-    description: "Ranking-based directory for indie makers.",
+    description:
+      "Outdoor maps and travel guides marketplace for content creators.",
     stack: [
       "next",
       "react",
       "typescript",
       "shadcn",
-      "prisma",
-      "lucia",
+      "supabase",
       "resend",
       "stripe",
     ],
-    timePeriod: "February 2024 - now",
+    timePeriod: "November 2024 - now",
   },
   {
-    name: "Liberalismo.xyz",
+    name: "Memecoins.wtf",
     status: "Active",
-    description: "Initiatives for freedom, capitalism, and State oversight.",
-    stack: ["next", "shadcn", "react", "typescript"],
-    timePeriod: "March 2024 - now",
-    mrr: 0,
-    urlText: "Go to website",
-    url: "https://liberalismo.xyz",
+    description: "Memecoin tools directory.",
+    stack: ["next", "react", "typescript", "shadcn"],
+    timePeriod: "November 2024 - now",
   },
   {
     name: "Juan Rallo Quotes",
@@ -58,13 +48,11 @@ export const projects: IProject[] = [
   },
   {
     name: "Citas Liberales",
-    status: "On hold",
+    status: "Discontinued",
     description: "Libertarian quotes in Spanish.",
     stack: ["metricool", "twitter"],
-    timePeriod: "2020 - now",
+    timePeriod: "2020 - 2024",
     mrr: 0,
-    urlText: "View on Twitter",
-    url: "https://twitter.com/citas_liberales",
     highlight: "+3,7k followers",
   },
   {
