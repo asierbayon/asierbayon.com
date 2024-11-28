@@ -33,7 +33,7 @@ export const projects: IProject[] = [
     mrr: 0,
     urlText: "View on Twitter",
     url: "https://twitter.com/juanralloquotes",
-    highlight: "+10k followers",
+    highlight: "+11k followers",
   },
   {
     name: "Juan Ramón Rallo AI",
@@ -44,7 +44,7 @@ export const projects: IProject[] = [
     mrr: 0,
     urlText: "View on ChatGPT",
     url: "https://chat.openai.com/g/g-cLWRj9j9u-juan-ramon-rallo-ai",
-    highlight: "+60 chats",
+    highlight: "+1k chats",
   },
   {
     name: "Citas Liberales",
