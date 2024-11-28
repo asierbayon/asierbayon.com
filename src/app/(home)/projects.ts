@@ -23,6 +23,8 @@ export const projects: IProject[] = [
     description: "Memecoin tools directory.",
     stack: ["next", "react", "typescript", "shadcn"],
     timePeriod: "November 2024 - now",
+    urlText: "Go to website",
+    url: "https://memecoins.wtf",
   },
   {
     name: "Juan Rallo Quotes",
