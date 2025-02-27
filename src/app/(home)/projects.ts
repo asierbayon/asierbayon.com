@@ -3,9 +3,8 @@ import { IProject } from "@/types"
 export const projects: IProject[] = [
   {
     name: "Spots Guru",
-    status: "Building",
-    description:
-      "Outdoor maps and travel guides marketplace for content creators.",
+    status: "Active",
+    description: "Storefront for travel creators.",
     stack: [
       "next",
       "react",
@@ -19,10 +18,10 @@ export const projects: IProject[] = [
   },
   {
     name: "Memecoins.wtf",
-    status: "Active",
+    status: "Discontinued",
     description: "Memecoin tools directory.",
     stack: ["next", "react", "typescript", "shadcn"],
-    timePeriod: "November 2024 - now",
+    timePeriod: "November 2024 - January 2025",
     urlText: "Go to website",
     url: "https://memecoins.wtf",
   },
@@ -60,8 +59,7 @@ export const projects: IProject[] = [
   {
     name: "CC0 Project",
     status: "Discontinued",
-    description:
-      "Created an airdrop to holders of a list of CC0 NFT collections.",
+    description: "Tokenized CC0 NFT community.",
     stack: ["solidity", "javascript"],
     timePeriod: "May 2022",
     urlText: "View on Etherscan",
@@ -106,11 +104,11 @@ export const projects: IProject[] = [
   {
     name: "Alfa Apuestas",
     status: "Discontinued",
-    description: "Sports predictions channel.",
+    description: "Sports predictions service.",
     stack: ["telegram", "twitter", "canva", "excel", "blogabet"],
     mrr: 1200,
     timePeriod: "2016 - 2017",
-    highlight: "€1,2k MRR (50 paid/month + 3k free)",
+    highlight: "€1,2k MRR (50 paid users/month + 3k free)",
   },
   {
     name: "Galas Bilbao",
