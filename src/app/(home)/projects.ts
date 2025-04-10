@@ -22,6 +22,17 @@ export const projects: IProject[] = [
     url: "https://www.viralitymasters.com",
   },
   {
+    name: "Github City",
+    status: "Discontinued",
+    image: "/githubcity.png",
+    description:
+      "Watch your GitHub contributions transform into a bustling metropolis.",
+    stack: ["three.js", "react", "typescript"],
+    timePeriod: "One random evening",
+    urlText: "Go to website",
+    url: "https://github-city-82cf.vercel.app/",
+  },
+  {
     name: "Spots Guru",
     status: "Discontinued",
     description: "Storefront for travel creators.",
@@ -139,7 +150,7 @@ export const projects: IProject[] = [
     stack: ["telegram", "twitter", "canva", "excel", "blogabet"],
     mrr: 1200,
     timePeriod: "2016 - 2017",
-    highlight: "€1,2k MRR (50 paid users/month + 3k free)",
+    highlight: "€1,2k MRR & 3k subscribers",
   },
   {
     name: "Galas Bilbao",

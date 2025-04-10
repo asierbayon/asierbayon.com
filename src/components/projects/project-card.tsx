@@ -1,7 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
 import { IProject } from "@/types"
-import { ExternalLink } from "lucide-react"
+import { ExternalLink, Trophy } from "lucide-react"
 
 import { projectStatusColors } from "@/lib/project-status-colors"
 import {
@@ -39,32 +39,25 @@ export function ProjectCard({ project }: ProjectCardProps) {
         <div className="p-6">
           <CardHeader className="px-0 pt-0">
             <div className="flex flex-row items-center justify-between">
-              <CardTitle className="text-2xl font-semibold">
+              <CardTitle className="flex flex-row items-center gap-2 text-2xl font-semibold">
+                <div
+                  className={`h-2 w-2 rounded-full bg-${
+                    projectStatusColors[project.status]
+                  }-500`}
+                />
                 {project.name}
               </CardTitle>
             </div>
-            <div className="flex items-center gap-2">
-              <div
-                className={`h-2 w-2 rounded-full bg-${
-                  projectStatusColors[project.status]
-                }-500`}
-              />
-              <span className="text-sm text-muted-foreground">
-                {project.status}
-              </span>
-            </div>
-            {project.highlight && (
-              <p className="text-sm">{project.highlight}</p>
-            )}
+            <p className="text-sm">{project.description}</p>
           </CardHeader>
 
           <CardContent className="px-0">
-            <p className="text-sm text-muted-foreground">
-              {project.timePeriod}
-            </p>
-            <p className="text-sm text-muted-foreground">
-              {project.description}
-            </p>
+            {project.highlight && (
+              <div className="mt-3 flex flex-row items-center gap-2 text-muted-foreground">
+                <Trophy className="h-3 w-3" />
+                <p className="text-sm">{project.highlight}</p>
+              </div>
+            )}
             <div className="mt-3 inline-flex flex-wrap gap-2">
               {project.stack.map((item) => (
                 <Badge
