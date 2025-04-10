@@ -1,16 +1,14 @@
 interface HeadingProps {
-  children: string
+  children: React.ReactNode
   subtext?: string
 }
 
 export function HeadingText({ children, subtext }: HeadingProps) {
   return (
     <div>
-      <h1 className="text-lg font-semibold">{children}</h1>
+      <h2 className="text-3xl font-bold">{children}</h2>
       {subtext && (
-        <h2 className="font-light text-zinc-500 dark:text-zinc-400">
-          {subtext}
-        </h2>
+        <p className="font-light text-zinc-500 dark:text-zinc-400">{subtext}</p>
       )}
     </div>
   )

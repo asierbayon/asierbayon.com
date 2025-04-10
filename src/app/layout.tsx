@@ -1,15 +1,11 @@
 import "@/styles/globals.css"
 
 import { Metadata, Viewport } from "next"
-import { Inter } from "next/font/google"
+import { Onest } from "next/font/google"
 
 import { siteConfig } from "@/config/site"
 import { cn } from "@/lib/utils"
 import Footer from "@/components/layout/footer"
-import Navbar from "@/components/layout/navbar"
-import { ThemeProvider } from "@/components/theme-provider"
-
-const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: {
@@ -68,6 +64,13 @@ export const viewport: Viewport = {
   ],
 }
 
+const onest = Onest({
+  subsets: ["latin"],
+  // Optionally specify weights you want to use
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+  variable: "--font-onest", // This allows us to use it as a CSS variable
+})
+
 interface RootLayoutProps {
   children: React.ReactNode
 }
@@ -77,17 +80,14 @@ export default function RootLayout({ children }: RootLayoutProps) {
     <html lang="en" suppressHydrationWarning>
       <body
         className={cn(
-          "bg-background text-zinc-800 antialiased dark:text-zinc-200",
-          inter.className
+          "bg-[#e7e7e7] text-zinc-800 antialiased dark:bg-background dark:text-zinc-200",
+          onest.variable
         )}
       >
-        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
-          <div className="container flex min-h-screen flex-col py-4 md:w-[45rem] md:py-8">
-            <Navbar />
-            {children}
-            <Footer />
-          </div>
-        </ThemeProvider>
+        <div className="container flex min-h-screen flex-col py-4 md:w-[45rem] md:py-8">
+          {children}
+          <Footer />
+        </div>
         <script
           data-goatcounter="https://asierbayon.goatcounter.com/count"
           async

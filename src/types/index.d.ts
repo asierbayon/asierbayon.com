@@ -22,6 +22,7 @@ export interface IProject {
   name: string
   repoUrl?: string
   description: string
+  image: string
   status: ProjectStatus
   stack: string[]
   url?: string

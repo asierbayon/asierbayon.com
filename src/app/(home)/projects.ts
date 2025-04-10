@@ -2,9 +2,30 @@ import { IProject } from "@/types"
 
 export const projects: IProject[] = [
   {
-    name: "Spots Guru",
+    name: "SkiCamps.org",
     status: "Active",
+    description: "Directory for ski camps.",
+    stack: ["next", "react", "typescript", "shadcn", "seo"],
+    image: "/skicamps.png",
+    timePeriod: "April 2025 - now",
+    urlText: "Go to website",
+    url: "https://www.skicamps.org",
+  },
+  {
+    name: "Virality Masters",
+    status: "On hold",
+    image: "/viralitymasters.png",
+    description: "Content mentorship platform.",
+    stack: ["next", "react", "typescript", "shadcn", "supabase"],
+    timePeriod: "March 2025 - April 2025",
+    urlText: "Go to website",
+    url: "https://www.viralitymasters.com",
+  },
+  {
+    name: "Spots Guru",
+    status: "Discontinued",
     description: "Storefront for travel creators.",
+    image: "/spotsguru.png",
     stack: [
       "next",
       "react",
@@ -15,10 +36,13 @@ export const projects: IProject[] = [
       "stripe",
     ],
     timePeriod: "November 2024 - now",
+    urlText: "Go to website",
+    url: "https://spotsguru.com",
   },
   {
     name: "Memecoins.wtf",
     status: "Discontinued",
+    image: "/memecoins.png",
     description: "Memecoin tools directory.",
     stack: ["next", "react", "typescript", "shadcn"],
     timePeriod: "November 2024 - January 2025",
@@ -27,18 +51,19 @@ export const projects: IProject[] = [
   },
   {
     name: "Juan Rallo Quotes",
-    status: "Active",
+    status: "Discontinued",
+    image: "/xbanner.png",
     description: "Quotes from Juan Ramón Rallo.",
     stack: ["metricool", "twitter"],
     timePeriod: "2020 - now",
     mrr: 0,
     urlText: "View on Twitter",
-    url: "https://twitter.com/juanralloquotes",
     highlight: "+11k followers",
   },
   {
     name: "Juan Ramón Rallo AI",
-    status: "Active",
+    status: "Discontinued",
+    image: "/juanralloai.png",
     description: "Ask Juan Ramón Rallo.",
     stack: ["chatgpt"],
     timePeriod: "January 2024 - now",
@@ -50,6 +75,7 @@ export const projects: IProject[] = [
   {
     name: "Citas Liberales",
     status: "Discontinued",
+    image: "/xbanner.png",
     description: "Libertarian quotes in Spanish.",
     stack: ["metricool", "twitter"],
     timePeriod: "2020 - 2024",
@@ -59,6 +85,7 @@ export const projects: IProject[] = [
   {
     name: "CC0 Project",
     status: "Discontinued",
+    image: "/etherscan.png",
     description: "Tokenized CC0 NFT community.",
     stack: ["solidity", "javascript"],
     timePeriod: "May 2022",
@@ -69,6 +96,7 @@ export const projects: IProject[] = [
   {
     name: "Medieval Fantasy",
     status: "Discontinued",
+    image: "/medievalfantasy.png",
     description: "Medieval-inspired HTML game.",
     stack: ["Javascript", "HTML", "Canva2D", "CSS"],
     timePeriod: "December 2020",
@@ -78,6 +106,7 @@ export const projects: IProject[] = [
   {
     name: "Hola DeFi",
     status: "Discontinued",
+    image: "/holadefi.png",
     description:
       "Spanish-speaking directory for decentralized finance applications.",
     stack: ["wordpress", "notion", "twitter", "canva"],
@@ -88,6 +117,7 @@ export const projects: IProject[] = [
     name: "Liberbrand",
     status: "Discontinued",
     description: "Apparel for the Libertarian Market.",
+    image: "/liberbrand.png",
     stack: [
       "shopify",
       "printful",
@@ -105,6 +135,7 @@ export const projects: IProject[] = [
     name: "Alfa Apuestas",
     status: "Discontinued",
     description: "Sports predictions service.",
+    image: "/alfaapuestas.png",
     stack: ["telegram", "twitter", "canva", "excel", "blogabet"],
     mrr: 1200,
     timePeriod: "2016 - 2017",
@@ -113,6 +144,7 @@ export const projects: IProject[] = [
   {
     name: "Galas Bilbao",
     status: "Discontinued",
+    image: "/galasbilbao.png",
     description: "High-school graduation parties.",
     stack: ["instagram", "twitter", "word-of-mouth"],
     mrr: 5000,

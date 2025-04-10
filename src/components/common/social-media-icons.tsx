@@ -47,15 +47,6 @@ export function SocialMediaIcons() {
       >
         <FaLinkedin />
       </a>
-      <a
-        target="_blank"
-        href={siteConfig.links.email}
-        rel="noopener noreferrer"
-        aria-label="Linkedin"
-        className="rounded p-2 text-xl hover:bg-accent hover:text-accent-foreground"
-      >
-        <FaEnvelope />
-      </a>
     </div>
   )
 }
