@@ -20,7 +20,7 @@ export default async function Home() {
           <span className="font-semibold">crafting visual beauty</span>.
         </p>
       </section>
-      <section className="space-y-4 py-12">
+      <section className="space-y-8 py-12">
         <HeadingText>My Projects</HeadingText>
         <div className="flex flex-col items-end gap-4">
           <div className="grid w-full grid-cols-1 gap-4 md:grid-cols-2">
