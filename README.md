@@ -2,6 +2,10 @@
 
 My personal website built with [Next.js](https://nextjs.org/).
 
+## Active projects
+🪾 [ANTI GUM](https://antigum.com)
+🎿 [SkiCalc.com](https://skicalc.com)
+
 ## Local Installation
 
 First, install the dependencies:
