@@ -2,6 +2,16 @@ import { IProject } from "@/types"
 
 export const projects: IProject[] = [
   {
+    name: "ANTI GUM",
+    status: "Active",
+    logo: "/anti-gum.png",
+    description: "Mastic gum ecommerce.",
+    stack: ["shopify"],
+    timePeriod: "2026-now",
+    urlText: "Go to website",
+    url: "https://antigum.com",
+  },
+  {
     name: "SkiCalc.com",
     status: "Active",
     description: "Ski Size Calculator.",
@@ -13,7 +23,7 @@ export const projects: IProject[] = [
   },
   {
     name: "SkiCamps.org",
-    status: "Active",
+    status: "Discontinued",
     description: "Directory for ski camps.",
     stack: ["next", "react", "typescript", "shadcn", "seo"],
     logo: "/skicamps.png",
@@ -23,7 +33,7 @@ export const projects: IProject[] = [
   },
   {
     name: "Virality Masters",
-    status: "On hold",
+    status: "Discontinued",
     logo: "/viralitymasters.png",
     description: "Content mentorship platform.",
     stack: ["next", "react", "typescript", "shadcn", "supabase"],

@@ -8,6 +8,7 @@ import { cn } from "@/lib/utils"
 import Footer from "@/components/layout/footer"
 
 export const metadata: Metadata = {
+  metadataBase: new URL(siteConfig.url),
   title: {
     default: siteConfig.name,
     template: `%s | ${siteConfig.name}`,
